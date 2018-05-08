@@ -1,0 +1,27 @@
+{
+  "name": "Cwiczenia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.4",
+    "formidable": "^1.2.1",
+    "stat-mode": "^0.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swirek-marcin/Pics-and-files-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swirek-marcin/Pics-and-files-uploader/issues"
+  },
+  "homepage": "https://github.com/swirek-marcin/Pics-and-files-uploader#readme"
+}
