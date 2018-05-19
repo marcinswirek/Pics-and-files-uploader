@@ -1,25 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Uploader</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-    <h1>Wgraj plik</h1>
-    <form action="/upload" enctype="multipart/form-data" method="post">
-        <label>Tytuł pliku</label>
-        <input type="text" name="title">
-        <br>
-        <label>Plik</label>
-        <input type="file" name="upload" multiple="multiple">
-        <br>
-        <input type="submit" value="Wyślij">
-    </form>
-
+    <h1>Witaj na stronie do uploadowania plików</h1>
+    <div class="box">
+        <h2>Wgraj plik</h2>
+        <form action="/upload" enctype="multipart/form-data" method="post" class="fieldset_body">
+            <p class="field">
+                <div class="upload_btn_wrapper">
+                    <input type="file" name="upload" multiple="multiple">
+                </div>
+                <input type="submit" value="Wyślij">
+            </p>
+        </form>
+    </div>
 </body>
 
 </html>
