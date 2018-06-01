@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="pl">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-
+    <title>Uploader</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -13,9 +14,9 @@
         <form action="/upload" enctype="multipart/form-data" method="post" class="fieldset_body">
             <p class="field">
                 <div class="upload_btn_wrapper">
-                    <input type="file" name="upload" multiple="multiple">
+                    <input class="choose_btn" type="file" name="upload" multiple="multiple">
                 </div>
-                <input type="submit" value="Wyślij">
+                <input class="upload_btn" type="submit" value="Wyślij">
             </p>
         </form>
     </div>
