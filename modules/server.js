@@ -10,9 +10,7 @@ function start() {
 
     response.writeHead(200, { "Content-Type": "text/plain; charset=utf-8" });
 
-    switch (
-      request.url
-    ) {
+    switch (request.url) {
       case "/":
       case "/start":
         handlers.welcome(request, response);
@@ -29,7 +27,7 @@ function start() {
   }
   http.createServer(onRequest).listen(9000);
 
-  console.log("Uruchomiono serwer!".green);
+  console.log("Server is running on localhost:9000".green);
 }
 
 exports.start = start;
